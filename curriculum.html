@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum - AWS & DevOps Master Program</title>
+    <meta name="description" content="13 learning phases, 30+ modules, 100+ hands-on labs. Complete DevOps curriculum from basics to enterprise.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">⚡</span>
+                AWS & DevOps
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="curriculum.html" class="nav-link">Curriculum</a></li>
+                <li><a href="index.html#contact" class="nav-link btn-cta">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Complete Curriculum</h1>
+            <p class="page-subtitle">13 Learning Phases | 30+ Industry Modules | 100+ Hands-On Labs</p>
+        </div>
+    </section>
+
+    <!-- Curriculum Content -->
+    <section class="curriculum-section">
+        <div class="container">
+            <!-- Phase 1 -->
+            <div class="curriculum-phase">
+                <button class="phase-header" onclick="togglePhase(this)">
+                    <span class="phase-number">Phase 1</span>
+                    <span class="phase-title">IT Foundations</span>
+                    <span class="phase-toggle">+</span>
+                </button>
+                <div class="phase-content">
+                    <div class="content-grid">
+                        <div class="module">
+                            <h4>Computer Fundamentals</h4>
+                            <ul>
+                                <li>CPU, Memory, Storage concepts</li>
+                                <li>System architecture basics</li>
+                                <li>Hardware & software interaction</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>Operating Systems</h4>
+                            <ul>
+                                <li>OS types and concepts</li>
+                                <li>Windows vs Linux comparison</li>
+                                <li>File systems and processes</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>Servers & Virtualization</h4>
+                            <ul>
+                                <li>Server concepts</li>
+                                <li>Virtual machines</li>
+                                <li>Hypervisors (KVM, VirtualBox)</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>Networking Basics</h4>
+                            <ul>
+                                <li>DNS, HTTP, HTTPS</li>
+                                <li>SSL/TLS certificates</li>
+                                <li>Ports and Firewalls</li>
+                                <li>Load Balancers</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="labs-info">
+                        <span class="lab-badge">5+ Labs</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phase 2 -->
+            <div class="curriculum-phase">
+                <button class="phase-header" onclick="togglePhase(this)">
+                    <span class="phase-number">Phase 2</span>
+                    <span class="phase-title">Linux Mastery</span>
+                    <span class="phase-toggle">+</span>
+                </button>
+                <div class="phase-content">
+                    <div class="content-grid">
+                        <div class="module">
+                            <h4>Linux Architecture</h4>
+                            <ul>
+                                <li>Kernel concepts</li>
+                                <li>Shell basics</li>
+                                <li>File permissions (chmod, chown)</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>Filesystem Management</h4>
+                            <ul>
+                                <li>Directory structure</li>
+                                <li>File operations</li>
+                                <li>Disk partitioning</li>
+                                <li>Mount points</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>User & Process Management</h4>
+                            <ul>
+                                <li>User and group management</li>
+                                <li>Process management</li>
+                                <li>Signal handling</li>
+                                <li>Resource limits</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>System Administration</h4>
+                            <ul>
+                                <li>Package management (apt, yum)</li>
+                                <li>System services (systemctl)</li>
+                                <li>Cron jobs and scheduling</li>
+                                <li>SSH configuration</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="labs-info">
+                        <span class="lab-badge">12+ Labs</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phase 3 -->
+            <div class="curriculum-phase">
+                <button class="phase-header" onclick="togglePhase(this)">
+                    <span class="phase-number">Phase 3</span>
+                    <span class="phase-title">Git & GitHub</span>
+                    <span class="phase-toggle">+</span>
+                </button>
+                <div class="phase-content">
+                    <div class="content-grid">
+                        <div class="module">
+                            <h4>Version Control Basics</h4>
+                            <ul>
+                                <li>Git fundamentals</li>
+                                <li>Repository initialization</li>
+                                <li>Commits and history</li>
+                                <li>Staging area</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>Branching & Merging</h4>
+                            <ul>
+                                <li>Creating branches</li>
+                                <li>Switching branches</li>
+                                <li>Merging strategies</li>
+                                <li>Conflict resolution</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>Advanced Git</h4>
+                            <ul>
+                                <li>Rebase operations</li>
+                                <li>Cherry-pick</li>
+                                <li>Stashing changes</li>
+                                <li>Tag management</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>GitHub Collaboration</h4>
+                            <ul>
+                                <li>Pull requests</li>
+                                <li>Code reviews</li>
+                                <li>Team workflows</li>
+                                <li>GitHub Actions intro</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="labs-info">
+                        <span class="lab-badge">8+ Labs</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phase 4 -->
+            <div class="curriculum-phase">
+                <button class="phase-header" onclick="togglePhase(this)">
+                    <span class="phase-number">Phase 4</span>
+                    <span class="phase-title">Docker - Containerization</span>
+                    <span class="phase-toggle">+</span>
+                </button>
+                <div class="phase-content">
+                    <div class="content-grid">
+                        <div class="module">
+                            <h4>Container Concepts</h4>
+                            <ul>
+                                <li>What are containers?</li>
+                                <li>Docker architecture</li>
+                                <li>Images vs containers</li>
+                                <li>Docker daemon</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>Docker Images</h4>
+                            <ul>
+                                <li>Image layers</li>
+                                <li>Dockerfile syntax</li>
+                                <li>Building images</li>
+                                <li>Image optimization</li>
+                                <li>Multi-stage builds</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>Docker Networking & Storage</h4>
+                            <ul>
+                                <li>Volumes and bind mounts</li>
+                                <li>Network modes</li>
+                                <li>Port mapping</li>
+                                <li>Container linking</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>Docker Compose</h4>
+                            <ul>
+                                <li>Multi-container setup</li>
+                                <li>Service definition</li>
+                                <li>Environment configuration</li>
+                                <li>Networking between services</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="labs-info">
+                        <span class="lab-badge">10+ Labs</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phase 5 -->
+            <div class="curriculum-phase">
+                <button class="phase-header" onclick="togglePhase(this)">
+                    <span class="phase-number">Phase 5</span>
+                    <span class="phase-title">AWS Cloud Services</span>
+                    <span class="phase-toggle">+</span>
+                </button>
+                <div class="phase-content">
+                    <div class="content-grid">
+                        <div class="module">
+                            <h4>AWS Fundamentals</h4>
+                            <ul>
+                                <li>Cloud computing concepts</li>
+                                <li>AWS regions & AZs</li>
+                                <li>Global infrastructure</li>
+                                <li>AWS account setup</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>IAM & Security</h4>
+                            <ul>
+                                <li>Identity management</li>
+                                <li>Users and roles</li>
+                                <li>Policies and permissions</li>
+                                <li>Best practices</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>Compute Services</h4>
+                            <ul>
+                                <li>EC2 instances</li>
+                                <li>Instance types and sizing</li>
+                                <li>Auto Scaling groups</li>
+                                <li>Elastic Load Balancers</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>Storage & Networking</h4>
+                            <ul>
+                                <li>S3 buckets and objects</li>
+                                <li>EBS volumes</li>
+                                <li>VPC and subnets</li>
+                                <li>Route53 DNS</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>Database & Monitoring</h4>
+                            <ul>
+                                <li>RDS database setup</li>
+                                <li>CloudWatch metrics</li>
+                                <li>SNS notifications</li>
+                                <li>CloudFront CDN</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>Container Registry</h4>
+                            <ul>
+                                <li>ECR setup</li>
+                                <li>Push/pull images</li>
+                                <li>Image scanning</li>
+                                <li>Registry permissions</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="labs-info">
+                        <span class="lab-badge">15+ Labs</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phase 6 -->
+            <div class="curriculum-phase">
+                <button class="phase-header" onclick="togglePhase(this)">
+                    <span class="phase-number">Phase 6</span>
+                    <span class="phase-title">CI/CD Pipelines</span>
+                    <span class="phase-toggle">+</span>
+                </button>
+                <div class="phase-content">
+                    <div class="content-grid">
+                        <div class="module">
+                            <h4>Jenkins</h4>
+                            <ul>
+                                <li>Jenkins installation</li>
+                                <li>Freestyle jobs</li>
+                                <li>Pipeline syntax</li>
+                                <li>Shared libraries</li>
+                                <li>Jenkins best practices</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>GitHub Actions</h4>
+                            <ul>
+                                <li>Workflow syntax</li>
+                                <li>Actions and secrets</li>
+                                <li>Event triggers</li>
+                                <li>Matrix builds</li>
+                                <li>Artifact management</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>Pipeline Design</h4>
+                            <ul>
+                                <li>Build stages</li>
+                                <li>Testing automation</li>
+                                <li>Deployment strategies</li>
+                                <li>Error handling</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="labs-info">
+                        <span class="lab-badge">8+ Labs</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phase 7 -->
+            <div class="curriculum-phase">
+                <button class="phase-header" onclick="togglePhase(this)">
+                    <span class="phase-number">Phase 7</span>
+                    <span class="phase-title">Code Quality & Security</span>
+                    <span class="phase-toggle">+</span>
+                </button>
+                <div class="phase-content">
+                    <div class="content-grid">
+                        <div class="module">
+                            <h4>SonarQube</h4>
+                            <ul>
+                                <li>Code analysis setup</li>
+                                <li>Quality gates</li>
+                                <li>Metrics and KPIs</li>
+                                <li>Security scanning</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>Artifact Management</h4>
+                            <ul>
+                                <li>JFrog Artifactory</li>
+                                <li>Repository setup</li>
+                                <li>Version management</li>
+                                <li>Retention policies</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="labs-info">
+                        <span class="lab-badge">5+ Labs</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phase 8 -->
+            <div class="curriculum-phase">
+                <button class="phase-header" onclick="togglePhase(this)">
+                    <span class="phase-number">Phase 8</span>
+                    <span class="phase-title">Terraform - IaC</span>
+                    <span class="phase-toggle">+</span>
+                </button>
+                <div class="phase-content">
+                    <div class="content-grid">
+                        <div class="module">
+                            <h4>Terraform Basics</h4>
+                            <ul>
+                                <li>Terraform installation</li>
+                                <li>HCL syntax</li>
+                                <li>Providers setup</li>
+                                <li>Resource definition</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>State Management</h4>
+                            <ul>
+                                <li>Local state</li>
+                                <li>Remote state</li>
+                                <li>State locking</li>
+                                <li>State troubleshooting</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>Advanced Terraform</h4>
+                            <ul>
+                                <li>Variables and outputs</li>
+                                <li>Modules</li>
+                                <li>Workspaces</li>
+                                <li>Terraform best practices</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="labs-info">
+                        <span class="lab-badge">8+ Labs</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phase 9 -->
+            <div class="curriculum-phase">
+                <button class="phase-header" onclick="togglePhase(this)">
+                    <span class="phase-number">Phase 9</span>
+                    <span class="phase-title">Kubernetes - Orchestration</span>
+                    <span class="phase-toggle">+</span>
+                </button>
+                <div class="phase-content">
+                    <div class="content-grid">
+                        <div class="module">
+                            <h4>Kubernetes Fundamentals</h4>
+                            <ul>
+                                <li>Architecture overview</li>
+                                <li>Master and worker nodes</li>
+                                <li>Control plane components</li>
+                                <li>Kubectl basics</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>Core Objects</h4>
+                            <ul>
+                                <li>Pods</li>
+                                <li>ReplicaSets</li>
+                                <li>Deployments</li>
+                                <li>Services (ClusterIP, NodePort, LoadBalancer)</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>Advanced Kubernetes</h4>
+                            <ul>
+                                <li>Namespaces</li>
+                                <li>ConfigMaps and Secrets</li>
+                                <li>Persistent Volumes</li>
+                                <li>StatefulSets</li>
+                                <li>Ingress controllers</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>Kubernetes Operations</h4>
+                            <ul>
+                                <li>Resource limits</li>
+                                <li>Scaling policies</li>
+                                <li>Health checks</li>
+                                <li>Updates and rollbacks</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="labs-info">
+                        <span class="lab-badge">12+ Labs</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phase 10 -->
+            <div class="curriculum-phase">
+                <button class="phase-header" onclick="togglePhase(this)">
+                    <span class="phase-number">Phase 10</span>
+                    <span class="phase-title">Amazon EKS - Managed Kubernetes</span>
+                    <span class="phase-toggle">+</span>
+                </button>
+                <div class="phase-content">
+                    <div class="content-grid">
+                        <div class="module">
+                            <h4>EKS Architecture</h4>
+                            <ul>
+                                <li>EKS control plane</li>
+                                <li>Managed node groups</li>
+                                <li>Networking setup</li>
+                                <li>IAM roles and policies</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>EKS Operations</h4>
+                            <ul>
+                                <li>Cluster creation</li>
+                                <li>Node management</li>
+                                <li>Scaling configuration</li>
+                                <li>Add-on management</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>ECR Integration</h4>
+                            <ul>
+                                <li>Image push/pull</li>
+                                <li>IAM authentication</li>
+                                <li>Image scanning</li>
+                                <li>Cost optimization</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="labs-info">
+                        <span class="lab-badge">6+ Labs</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phase 11 -->
+            <div class="curriculum-phase">
+                <button class="phase-header" onclick="togglePhase(this)">
+                    <span class="phase-number">Phase 11</span>
+                    <span class="phase-title">Monitoring & Observability</span>
+                    <span class="phase-toggle">+</span>
+                </button>
+                <div class="phase-content">
+                    <div class="content-grid">
+                        <div class="module">
+                            <h4>Prometheus</h4>
+                            <ul>
+                                <li>Prometheus setup</li>
+                                <li>Metrics collection</li>
+                                <li>Exporters</li>
+                                <li>PromQL queries</li>
+                                <li>Alert rules</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>Grafana</h4>
+                            <ul>
+                                <li>Grafana installation</li>
+                                <li>Data source setup</li>
+                                <li>Dashboard creation</li>
+                                <li>Alert configuration</li>
+                                <li>Advanced visualization</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>Observability Practices</h4>
+                            <ul>
+                                <li>Metrics collection strategy</li>
+                                <li>Alert design</li>
+                                <li>Dashboard best practices</li>
+                                <li>SLA/SLO monitoring</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="labs-info">
+                        <span class="lab-badge">8+ Labs</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phase 12 -->
+            <div class="curriculum-phase">
+                <button class="phase-header" onclick="togglePhase(this)">
+                    <span class="phase-number">Phase 12</span>
+                    <span class="phase-title">DevSecOps - Security</span>
+                    <span class="phase-toggle">+</span>
+                </button>
+                <div class="phase-content">
+                    <div class="content-grid">
+                        <div class="module">
+                            <h4>Security Best Practices</h4>
+                            <ul>
+                                <li>Least privilege principle</li>
+                                <li>Defense in depth</li>
+                                <li>Security scanning</li>
+                                <li>Secrets management</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>Container Security</h4>
+                            <ul>
+                                <li>Image scanning with Trivy</li>
+                                <li>Vulnerability detection</li>
+                                <li>Runtime security</li>
+                                <li>Policy enforcement</li>
+                            </ul>
+                        </div>
+                        <div class="module">
+                            <h4>CI/CD Security</h4>
+                            <ul>
+                                <li>Secret injection</li>
+                                <li>SAST tools</li>
+                                <li>Dependency scanning</li>
+                                <li>Compliance checks</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="labs-info">
+                        <span class="lab-badge">6+ Labs</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phase 13 -->
+            <div class="curriculum-phase">
+                <button class="phase-header" onclick="togglePhase(this)">
+                    <span class="phase-number">Phase 13</span>
+                    <span class="phase-title">Enterprise Capstone Project</span>
+                    <span class="phase-toggle">+</span>
+                </button>
+                <div class="phase-content">
+                    <div class="capstone-description">
+                        <p>Build a complete DevOps solution combining all learned technologies:</p>
+                        
+                        <h4>📋 Architecture</h4>
+                        <p>GitHub → Jenkins/Actions → SonarQube → Docker → JFrog → Terraform → AWS ECR → EKS → Prometheus → Grafana</p>
+
+                        <h4>🎯 Project Components</h4>
+                        <ul>
+                            <li><strong>Version Control:</strong> Multi-repository GitHub setup</li>
+                            <li><strong>CI/CD:</strong> End-to-end Jenkins/GitHub Actions pipeline</li>
+                            <li><strong>Code Quality:</strong> SonarQube integration with quality gates</li>
+                            <li><strong>Containerization:</strong> Multi-stage Docker builds</li>
+                            <li><strong>Artifact Management:</strong> JFrog Artifactory integration</li>
+                            <li><strong>Infrastructure:</strong> Terraform-managed AWS resources</li>
+                            <li><strong>Deployment:</strong> EKS cluster deployment with auto-scaling</li>
+                            <li><strong>Monitoring:</strong> Prometheus & Grafana dashboards</li>
+                            <li><strong>Security:</strong> DevSecOps practices throughout</li>
+                        </ul>
+
+                        <h4>🚀 Real-World Scenarios</h4>
+                        <ul>
+                            <li>Multi-branch deployment strategy (main/develop/feature)</li>
+                            <li>Blue-green deployment</li>
+                            <li>Canary releases</li>
+                            <li>Rollback procedures</li>
+                            <li>Auto-scaling based on metrics</li>
+                            <li>Health checks and recovery</li>
+                            <li>Disaster recovery procedures</li>
+                        </ul>
+
+                        <h4>📊 Deliverables</h4>
+                        <ul>
+                            <li>Complete infrastructure code (Terraform)</li>
+                            <li>Fully automated CI/CD pipeline</li>
+                            <li>Docker containerized application</li>
+                            <li>Kubernetes deployment manifests</li>
+                            <li>Monitoring dashboards</li>
+                            <li>Security scanning reports</li>
+                            <li>Documentation and runbooks</li>
+                            <li>Demo and presentation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Summary Stats -->
+            <div class="curriculum-summary">
+                <h2>Program Summary</h2>
+                <div class="summary-grid">
+                    <div class="summary-item">
+                        <div class="summary-number">13</div>
+                        <div class="summary-label">Learning Phases</div>
+                    </div>
+                    <div class="summary-item">
+                        <div class="summary-number">30+</div>
+                        <div class="summary-label">Industry Modules</div>
+                    </div>
+                    <div class="summary-item">
+                        <div class="summary-number">100+</div>
+                        <div class="summary-label">Hands-On Labs</div>
+                    </div>
+                    <div class="summary-item">
+                        <div class="summary-number">6</div>
+                        <div class="summary-label">Mini Projects</div>
+                    </div>
+                    <div class="summary-item">
+                        <div class="summary-number">1</div>
+                        <div class="summary-label">Enterprise Project</div>
+                    </div>
+                </div>
+
+                <div class="cta-section">
+                    <h3>Ready to Start?</h3>
+                    <p>Join hundreds of students who are building successful DevOps careers</p>
+                    <div class="cta-buttons">
+                        <a href="index.html#contact" class="btn btn-primary">Enroll Now</a>
+                        <a href="https://wa.me/917385267947?text=Hi%20Sagar%2C%20I%20want%20to%20book%20a%20free%20demo%20session" target="_blank" class="btn btn-secondary">Book Free Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>AWS & DevOps Master Program</h4>
+                <p>Learn Industry Tools Used By Modern Companies</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="curriculum.html">Curriculum</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>📞 <a href="tel:7385267947">7385267947</a></p>
+                <p>🌐 <a href="https://tambesagar28.github.io/my-website" target="_blank">tambesagar28.github.io</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 AWS & DevOps Master Program. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS & DevOps Master Program - Industry Ready Training</title>
+    <meta name="description" content="Master AWS & DevOps with real industry projects. 100+ hands-on labs, enterprise capstone project, placement guidance. Online live training.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">⚡</span>
+                AWS & DevOps
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#why" class="nav-link">Why DevOps</a></li>
+                <li><a href="#tech" class="nav-link">Technologies</a></li>
+                <li><a href="#roadmap" class="nav-link">Roadmap</a></li>
+                <li><a href="curriculum.html" class="nav-link">Curriculum</a></li>
+                <li><a href="#trainer" class="nav-link">Trainer</a></li>
+                <li><a href="#contact" class="nav-link btn-cta">Enroll Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Master AWS & DevOps with Real Industry Projects</h1>
+                <p class="hero-subtitle">Build Production-Ready Infrastructure, CI/CD Pipelines and Kubernetes Deployments used by modern companies.</p>
+                
+                <div class="hero-highlights">
+                    <span>✔ Beginner Friendly</span>
+                    <span>✔ No Prior IT Experience Required</span>
+                    <span>✔ Real Industry Projects</span>
+                    <span>✔ Placement-Oriented Learning</span>
+                </div>
+
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('#contact')">Enroll Now</button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('#contact')">Contact Trainer</button>
+                    <a href="curriculum.html" class="btn btn-outline">View Curriculum →</a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="13">13</div>
+                        <div class="stat-label">Learning Phases</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="30">30+</div>
+                        <div class="stat-label">Industry Modules</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="100">100+</div>
+                        <div class="stat-label">Hands-on Labs</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="7">7+</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card card-1">
+                    <div class="card-icon">🐧</div>
+                    <div class="card-text">Linux</div>
+                </div>
+                <div class="floating-card card-2">
+                    <div class="card-icon">🐳</div>
+                    <div class="card-text">Docker</div>
+                </div>
+                <div class="floating-card card-3">
+                    <div class="card-icon">☸️</div>
+                    <div class="card-text">Kubernetes</div>
+                </div>
+                <div class="floating-card card-4">
+                    <div class="card-icon">⚡</div>
+                    <div class="card-text">Jenkins</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why AWS & DevOps Section -->
+    <section id="why" class="why-section">
+        <div class="container">
+            <h2 class="section-title">Why AWS & DevOps?</h2>
+            <p class="section-subtitle">DevOps is the fastest-growing career path in IT today</p>
+            
+            <div class="cards-grid">
+                <div class="card glass-card">
+                    <div class="card-icon-large">📈</div>
+                    <h3>High Demand Industry</h3>
+                    <p>DevOps engineers are in extreme shortage. Companies need skilled professionals to manage cloud infrastructure.</p>
+                </div>
+                <div class="card glass-card">
+                    <div class="card-icon-large">🌍</div>
+                    <h3>Global Career Opportunities</h3>
+                    <p>Work for companies like Google, Amazon, Netflix, Apple, Meta, Microsoft, and thousands of startups worldwide.</p>
+                </div>
+                <div class="card glass-card">
+                    <div class="card-icon-large">💰</div>
+                    <h3>Excellent Salary Growth</h3>
+                    <p>DevOps Engineers earn ₹10L - ₹30L+ annually in India and $120K - $200K+ in US/Europe.</p>
+                </div>
+                <div class="card glass-card">
+                    <div class="card-icon-large">🏠</div>
+                    <h3>Remote Job Opportunities</h3>
+                    <p>80% of DevOps roles are fully remote. Work from anywhere in the world with flexibility.</p>
+                </div>
+                <div class="card glass-card">
+                    <div class="card-icon-large">🛠️</div>
+                    <h3>Real World Skills</h3>
+                    <p>Learn tools and practices used by Fortune 500 companies. Skills immediately applicable to production environments.</p>
+                </div>
+                <div class="card glass-card">
+                    <div class="card-icon-large">🚀</div>
+                    <h3>Future-Proof Career</h3>
+                    <p>Cloud and automation are the future. DevOps skills remain relevant and in-demand for decades.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="tech" class="tech-section">
+        <div class="container">
+            <h2 class="section-title">Technologies Covered</h2>
+            <p class="section-subtitle">Master the complete DevOps & Cloud ecosystem</p>
+            
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-emoji">🐧</div>
+                    <h4>Linux</h4>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-emoji">🔀</div>
+                    <h4>Git</h4>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-emoji">💻</div>
+                    <h4>GitHub</h4>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-emoji">🐳</div>
+                    <h4>Docker</h4>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-emoji">☁️</div>
+                    <h4>AWS</h4>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-emoji">🔄</div>
+                    <h4>Jenkins</h4>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-emoji">⚡</div>
+                    <h4>GitHub Actions</h4>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-emoji">🏗️</div>
+                    <h4>Terraform</h4>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-emoji">☸️</div>
+                    <h4>Kubernetes</h4>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-emoji">🚀</div>
+                    <h4>Amazon EKS</h4>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-emoji">✅</div>
+                    <h4>SonarQube</h4>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-emoji">📦</div>
+                    <h4>JFrog</h4>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-emoji">📊</div>
+                    <h4>Prometheus</h4>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-emoji">📈</div>
+                    <h4>Grafana</h4>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-emoji">🛡️</div>
+                    <h4>Trivy</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Roadmap Section -->
+    <section id="roadmap" class="roadmap-section">
+        <div class="container">
+            <h2 class="section-title">Your Learning Journey</h2>
+            <p class="section-subtitle">From Absolute Beginner to Industry-Ready DevOps Engineer</p>
+            
+            <div class="roadmap-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>IT Foundations</h4>
+                        <p>Computer fundamentals, OS basics, networking</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>Linux Mastery</h4>
+                        <p>Administration, permissions, system management</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>Git & GitHub</h4>
+                        <p>Version control, collaboration, workflows</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>Docker</h4>
+                        <p>Containerization, images, compose, security</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>AWS Cloud</h4>
+                        <p>EC2, VPC, S3, RDS, CloudWatch, IAM</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>CI/CD Pipelines</h4>
+                        <p>Jenkins, GitHub Actions, automation</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>Code Quality</h4>
+                        <p>SonarQube, JFrog, security scanning</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>Infrastructure as Code</h4>
+                        <p>Terraform, automation</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>Kubernetes</h4>
+                        <p>Orchestration, deployments, services</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>Amazon EKS</h4>
+                        <p>Managed Kubernetes on AWS</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>Monitoring & Observability</h4>
+                        <p>Prometheus, Grafana, alerting</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>DevSecOps</h4>
+                        <p>Security best practices, scanning, compliance</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>Enterprise Project</h4>
+                        <p>Full CI/CD pipeline, end-to-end deployment</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot final"></div>
+                    <div class="timeline-content">
+                        <h4>Job-Ready DevOps Engineer</h4>
+                        <p>Ready for real-world deployments</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="roadmap-button">
+                <a href="curriculum.html" class="btn btn-primary">View Detailed Curriculum →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hands-on Labs Section -->
+    <section class="labs-section">
+        <div class="container">
+            <h2 class="section-title">100+ Practical Hands-On Labs</h2>
+            <p class="section-subtitle">Learn by doing with real-world scenarios</p>
+            
+            <div class="labs-grid">
+                <div class="lab-card">
+                    <div class="lab-icon">🐧</div>
+                    <h4>Linux Administration</h4>
+                    <p>File systems, permissions, processes, packages</p>
+                </div>
+                <div class="lab-card">
+                    <div class="lab-icon">🔀</div>
+                    <h4>Git Workflow</h4>
+                    <p>Branching, merging, collaboration, workflows</p>
+                </div>
+                <div class="lab-card">
+                    <div class="lab-icon">🐳</div>
+                    <h4>Docker Build</h4>
+                    <p>Images, containers, volumes, networks</p>
+                </div>
+                <div class="lab-card">
+                    <div class="lab-icon">☁️</div>
+                    <h4>AWS Infrastructure</h4>
+                    <p>EC2, VPC, RDS, Load Balancers, Auto Scaling</p>
+                </div>
+                <div class="lab-card">
+                    <div class="lab-icon">🏗️</div>
+                    <h4>Terraform Automation</h4>
+                    <p>Infrastructure as code, state management, modules</p>
+                </div>
+                <div class="lab-card">
+                    <div class="lab-icon">🔄</div>
+                    <h4>Jenkins Pipelines</h4>
+                    <p>Jobs, pipelines, shared libraries, integration</p>
+                </div>
+                <div class="lab-card">
+                    <div class="lab-icon">☸️</div>
+                    <h4>Kubernetes Deployments</h4>
+                    <p>Pods, services, deployments, ingress, storage</p>
+                </div>
+                <div class="lab-card">
+                    <div class="lab-icon">🚀</div>
+                    <h4>EKS Deployments</h4>
+                    <p>Cluster setup, node groups, application deployment</p>
+                </div>
+                <div class="lab-card">
+                    <div class="lab-icon">📊</div>
+                    <h4>Prometheus Monitoring</h4>
+                    <p>Metrics, exporters, queries, alerting</p>
+                </div>
+                <div class="lab-card">
+                    <div class="lab-icon">📈</div>
+                    <h4>Grafana Dashboards</h4>
+                    <p>Visualization, dashboards, alerts, data sources</p>
+                </div>
+                <div class="lab-card">
+                    <div class="lab-icon">🔐</div>
+                    <h4>Security Scanning</h4>
+                    <p>Trivy, container scanning, vulnerability detection</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mini Projects Section -->
+    <section class="projects-section">
+        <div class="container">
+            <h2 class="section-title">6 Mini Projects</h2>
+            <p class="section-subtitle">Build real projects that enhance your portfolio</p>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-number">01</div>
+                    <h3>Linux Administration Project</h3>
+                    <p>Setup and manage Linux systems, user management, security, automation with scripts</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-number">02</div>
+                    <h3>GitHub Collaboration Project</h3>
+                    <p>Collaborate on code, manage pull requests, resolve conflicts, team workflows</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-number">03</div>
+                    <h3>Dockerized Application</h3>
+                    <p>Build Docker images, run multi-container applications, optimize for production</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-number">04</div>
+                    <h3>AWS 3-Tier Architecture</h3>
+                    <p>Design and deploy scalable, highly available AWS infrastructure with RDS, EC2, ALB</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-number">05</div>
+                    <h3>Terraform Infrastructure</h3>
+                    <p>Automate AWS infrastructure provisioning using Terraform with state management</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-number">06</div>
+                    <h3>Kubernetes Production</h3>
+                    <p>Deploy applications on Kubernetes with auto-scaling, monitoring, and security</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enterprise Capstone Section -->
+    <section class="capstone-section">
+        <div class="container">
+            <h2 class="section-title">Enterprise Capstone Project</h2>
+            <p class="section-subtitle">Complete DevOps Pipeline - End-to-End Enterprise Deployment</p>
+            
+            <div class="pipeline-diagram">
+                <div class="pipeline-node">
+                    <div class="node-icon">🐙</div>
+                    <div class="node-label">GitHub</div>
+                </div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-node">
+                    <div class="node-icon">🔄</div>
+                    <div class="node-label">Jenkins/<br>GitHub Actions</div>
+                </div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-node">
+                    <div class="node-icon">✅</div>
+                    <div class="node-label">SonarQube</div>
+                </div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-node">
+                    <div class="node-icon">🐳</div>
+                    <div class="node-label">Docker Build</div>
+                </div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-node">
+                    <div class="node-icon">📦</div>
+                    <div class="node-label">JFrog</div>
+                </div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-node">
+                    <div class="node-icon">🏗️</div>
+                    <div class="node-label">Terraform</div>
+                </div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-node">
+                    <div class="node-icon">☁️</div>
+                    <div class="node-label">AWS ECR</div>
+                </div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-node">
+                    <div class="node-icon">☸️</div>
+                    <div class="node-label">AWS EKS</div>
+                </div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-node">
+                    <div class="node-icon">📊</div>
+                    <div class="node-label">Prometheus</div>
+                </div>
+                <div class="pipeline-arrow">→</div>
+                <div class="pipeline-node">
+                    <div class="node-icon">📈</div>
+                    <div class="node-label">Grafana</div>
+                </div>
+            </div>
+
+            <div class="capstone-details">
+                <div class="detail-box">
+                    <h4>📋 What You'll Build</h4>
+                    <ul>
+                        <li>End-to-end CI/CD pipeline</li>
+                        <li>Automated testing and security scanning</li>
+                        <li>Docker containerization</li>
+                        <li>Infrastructure as Code (Terraform)</li>
+                        <li>Kubernetes cluster deployment</li>
+                        <li>Production monitoring and alerting</li>
+                    </ul>
+                </div>
+                <div class="detail-box">
+                    <h4>🎯 Real-World Scenarios</h4>
+                    <ul>
+                        <li>Multi-branch deployment strategy</li>
+                        <li>Blue-Green deployments</li>
+                        <li>Auto-scaling configuration</li>
+                        <li>High availability setup</li>
+                        <li>Security best practices</li>
+                        <li>Cost optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Opportunities Section -->
+    <section class="career-section">
+        <div class="container">
+            <h2 class="section-title">Career Opportunities</h2>
+            <p class="section-subtitle">Diverse high-paying roles after this program</p>
+            
+            <div class="career-grid">
+                <div class="career-card">
+                    <h3>AWS Cloud Engineer</h3>
+                    <p>₹15L - ₹35L annually | Design and manage AWS infrastructure</p>
+                </div>
+                <div class="career-card">
+                    <h3>DevOps Engineer</h3>
+                    <p>₹12L - ₹30L annually | Manage CI/CD pipelines and deployments</p>
+                </div>
+                <div class="career-card">
+                    <h3>Platform Engineer</h3>
+                    <p>₹15L - ₹40L annually | Build internal developer platforms</p>
+                </div>
+                <div class="career-card">
+                    <h3>Kubernetes Engineer</h3>
+                    <p>₹14L - ₹35L annually | Manage container orchestration</p>
+                </div>
+                <div class="career-card">
+                    <h3>Infrastructure Engineer</h3>
+                    <p>₹13L - ₹32L annually | Design scalable infrastructure</p>
+                </div>
+                <div class="career-card">
+                    <h3>Cloud Support Engineer</h3>
+                    <p>₹10L - ₹25L annually | Support enterprise cloud deployments</p>
+                </div>
+                <div class="career-card">
+                    <h3>Site Reliability Engineer</h3>
+                    <p>₹16L - ₹45L annually | Ensure system reliability and performance</p>
+                </div>
+                <div class="career-card">
+                    <h3>Cloud Consultant</h3>
+                    <p>₹18L - ₹50L+ annually | Advise on cloud architecture</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainer Section -->
+    <section id="trainer" class="trainer-section">
+        <div class="container">
+            <h2 class="section-title">Learn from Industry Expert</h2>
+            
+            <div class="trainer-card glass-card">
+                <div class="trainer-header">
+                    <div class="trainer-avatar">ST</div>
+                    <div class="trainer-info">
+                        <h3>Sagar Tambe</h3>
+                        <p class="trainer-title">Senior DevOps Engineer</p>
+                    </div>
+                </div>
+
+                <div class="trainer-experience">
+                    <h4>Professional Background</h4>
+                    <p>Industry professional with 8+ years of real-world experience building cloud infrastructure, CI/CD pipelines, Kubernetes platforms, and DevOps automation solutions for Fortune 500 companies.</p>
+                    
+                    <h4>Previous Organizations</h4>
+                    <ul class="org-list">
+                        <li>Accenture</li>
+                        <li>Infosys</li>
+                        <li>Hexaware</li>
+                    </ul>
+
+                    <h4>Global Client Experience</h4>
+                    <ul class="client-list">
+                        <li>Bank of America</li>
+                        <li>Deutsche Bank</li>
+                        <li>Travelers</li>
+                        <li>PSCU</li>
+                    </ul>
+                </div>
+
+                <div class="trainer-highlight">
+                    <p>🎓 Not a teacher who just knows theory. A working DevOps engineer sharing real production experience and industry best practices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        Do I need coding knowledge?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No! This program is designed for absolute beginners. While coding knowledge helps, it's not required. We teach everything from basics including shell scripting if needed.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        Do I need AWS experience?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Not at all! We start from absolute basics and teach AWS from ground up. You'll learn everything needed to become proficient with AWS services.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        Will there be projects?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! You'll complete 6 mini projects and 1 comprehensive enterprise capstone project. These projects become part of your portfolio and help you land jobs.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        Will I get placement guidance?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! We provide placement guidance, resume review, interview preparation, and direct introductions to companies hiring DevOps engineers.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        Is the training live?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! 100% online live training. You can interact directly with the trainer, ask questions, and get real-time guidance on your projects.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        Will recordings be available?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! All live sessions are recorded. If you miss a class, you can watch the recording anytime. Access to all recordings for lifetime reference.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        Can working professionals join?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely! Many working professionals join to upskill. Classes are scheduled at convenient times with flexible options and recorded sessions for flexible learning.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Ready to Start Your DevOps Journey?</h2>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Sagar Tambe</h3>
+                    <p class="contact-title">Senior DevOps Engineer</p>
+                    <p class="contact-training-mode">100% Online Live Training</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-label">Phone:</span>
+                            <a href="tel:7385267947" class="contact-value">7385267947</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Website:</span>
+                            <a href="https://tambesagar28.github.io/my-website" target="_blank" class="contact-value">tambesagar28.github.io</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-buttons">
+                        <a href="https://wa.me/917385267947?text=Hi%20Sagar%2C%20I%20want%20to%20enroll%20in%20the%20AWS%20DevOps%20Master%20Program" target="_blank" class="btn btn-primary">WhatsApp Now</a>
+                      <!-- <a href="https://wa.me/917385267947?text=Hi%20Sagar%2C%20I%20want%20to%20enroll%20in%20the%20AWS%20DevOps%20Master%20Program" target="_blank" class="btn btn-secondary">Enroll Now</a> -->
+                        <a href="https://wa.me/917385267947?text=Hi%20Sagar%2C%20I%20want%20to%20book%20a%20free%20demo%20session" target="_blank" class="btn btn-outline">Free Demo Session</a>
+                    </div>
+                </div>
+
+                <div class="contact-highlights">
+                    <div class="highlight-box">
+                        <h4>🎯 Program Benefits</h4>
+                        <ul>
+                            <li>13 learning phases</li>
+                            <li>30+ industry modules</li>
+                            <li>100+ hands-on labs</li>
+                            <li>7 real projects</li>
+                            <li>Enterprise capstone</li>
+                            <li>Lifetime recordings</li>
+                            <li>Placement guidance</li>
+                            <li>Certificate of completion</li>
+                        </ul>
+                    </div>
+                    <div class="highlight-box">
+                        <h4>💼 Investment</h4>
+                        <p class="investment-price">₹40000</p>
+                        <p class="investment-subtitle">Industry-standard skills that pay for themselves within months</p>
+                        <ul>
+                            <li>✓ Career support included</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>AWS & DevOps Master Program</h4>
+                <p>Learn Industry Tools Used By Modern Companies</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="curriculum.html">Curriculum</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#career">Career Opportunities</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>📞 <a href="tel:7385267947">7385267947</a></p>
+                <p>🌐 <a href="https://tambesagar28.github.io/my-website" target="_blank">tambesagar28.github.io</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 AWS & DevOps Master Program. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
